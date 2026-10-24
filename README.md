@@ -42,9 +42,15 @@ A **Logistic Regression** classification model is trained and evaluated using a 
 ## 🖥️ How It Works
 
 1️⃣ **Load Dataset:** Import the diabetes dataset using Pandas and examine its structure, dimensions, statistics, and data types.
+
 2️⃣ **Data Analysis:** Perform EDA using count plots, pair plots, and correlation heatmaps to understand the relationship between different health parameters and diabetes outcomes.
+
 3️⃣ **Data Preprocessing:** Identify invalid zero values in features such as Glucose, Blood Pressure, Skin Thickness, Insulin, and BMI and replace them with NaN values.
+
 4️⃣ **Handle Missing Values:** Replace the identified missing values with the corresponding feature mean to prepare the dataset for model training.
+
 5️⃣ **Train Model:** Separate the input features and target variable (`Outcome`) and train a Logistic Regression classifier using an 80/20 stratified train-test split.
+
 6️⃣ **Evaluate Model:** Generate predictions on the test dataset and evaluate the model using a confusion matrix and accuracy score.
+
 7️⃣ **Predict New Cases:** Provide health-related input values for a new individual and use the trained model to predict whether the person is **Diabetic** or **Non-Diabetic**.
